@@ -19,6 +19,8 @@ C'est au groupe méthodes logistiques d'attribuer les équerres à un chantier e
 #### Analyse de l'existant
 La réservation des équerres se faisait jusqu'à maintenant via un fichier Excel, répertoriant toutes les équerres existantes et où il fallait colorer la ligne de l'équerre à réserver sur une certaine période.
 L'objectif durant ce stage sera de développer un logiciel permettant à l'équipe méthodes logistiques de réserver facilement des équerres.
+De nombreuses documentations concernant les propriétés des équerres m'ont été remises. Elles m'ont permis de créer la base de donnée nécessaire pour utiliser le logiciel.
+![Schema Base De Donnees](METTRE LIEN)
 
 ## Cahier des charges du logiciel
 La réservation des équerres est une tâche chronophage. Le principal objectif du logiciel est de gagner du temps; ou plutôt de ne pas en perdre car la réservation des équerres via le fichier Excel est laborieuse et source d'erreurs.
