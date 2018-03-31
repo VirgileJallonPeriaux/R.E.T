@@ -35,3 +35,8 @@ Tous les utilisateurs n'ont pas les même droits.<br>
 Exemple :
   - Les employés du secteur méthodes logistiques peuvent réserver, annuler une réservation, créer de nouvelles équerres... Ils ne voient que les types des équerres et non les repères servant à les identifier.
   - Les employés du secteur "pré montage" en revanche, n'ont pas le droit à la modification. Ils peuvent cependant voir les repères des équerres.
+
+## Le logiciel
+Le logiciel sera développé en C# pour plusieurs raisons : 
+- Le logiciel est assez complet, il prendra donc du temps à réaliser. Le programmer dans un langage que je ne connais que peu ne me permettrait pas de réaliser le cahier des charges convenu.
+- Le logiciel ne sera certainement pas fini avant la fin de mon stage. Deux solutions s'offrent alors : soit un autre stagiaire prends le relais soit c'est un membre de l'équipe méthodes logistiques, Matthieu Michel (dit "MattMich"), qui s'en chargera. Il est le plus susceptible d'intervenir sur le code si une erreur se produit. Ayant quelques notions de Visual Basic (langage assez proche du C# dans sa syntaxe), il sera à même de modifier le code du logiciel.
