@@ -27,7 +27,7 @@ Le logiciel devra proposer à l'utilisateur une liste des équerres disponibles 
 - Générer des statistiques<br>
 Certains types d'équerres sont beaucoup plus utilisés que d'autres. Il peut arriver que plus aucune équerre correspondante ne soit disponible. Pour ne pas réitérer cette situation plus que dérangeante, le service coque métallique envisage l'achat de nouvelles équerres. Celles-ci ayant un coût élevé, la direction de STX demande des statistiques sur l'utilisation de ces équerres. Les statistiques établies permettront de démontrer l'intérêt réel d'un tel investissement.
 - Gérer plusieurs utilisateurs<br>
-Le logiciel sera principalement utilisé par les employés du secteur méthodes logistiques. Ceux-ci soivent, à tout moment, pouvoir consulter les réservations des équerres.<br>
+Le logiciel sera principalement utilisé par les employés du secteur méthodes logistiques. Ceux-ci doivent, à tout moment, pouvoir consulter les réservations des équerres.<br>
 - Gérer les droits des utilisateurs<br>
 Tous les utilisateurs n'ont pas les même droits.<br>
 Exemple :
