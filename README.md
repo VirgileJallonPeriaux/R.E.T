@@ -12,6 +12,10 @@ La construction de navires suit un processus bien établi qui ne varie que dans 
 Un **panneau** peut être schématisé par un morceau de tôle souvent long d'une vingtaine de mètres. Il est modélisé en 3D puis envoyé à l'usinage. Celui-ci sera volontairement construit à l'envers de manière à simplifier la pose des câbles électriques et autres tuyaux. Lorsque l'installation de ceux-ci est finie, le panneau est dit "armé" et il faut alors le retourner dans le bon sens.
 Les panneaux dans le bon sens sont alors empilés les uns sur les autres, ils forment alors ce qu'on appelle un **bloc**. Ces blocs, à leur tour, vont être empilés les uns sur les autres. C'est cet ensemble de blocs qui constitue le navire.
 
-### Utilisation des outillages
-Sur le chantier dit de "pré montage", les panneaux sont empilés pour former un seul et même bloc. Pour ce faire, ils ont besoin d'être maintenus par des équerres. Ces équerres ont une certaine hauteur, parfois réglable, et peuvent supporter une certaine charge.
-C'est au groupe méthodes logistiques d'attribuer les équerres à un chantier de pré montage. La réservation des équerres se faisait jusqu'à maintenant via un fichier Excel, répertoriant toutes les équerres existantes et où il fallait colorer la ligne de l'équerre en question sur une certaine période.
+### Utilisation des équerres
+Lorsque des blocs ou des équerres sont empilés sur un chantier, ceux-ci doivent être maintenus par des équerres. Celles-ci ont une certaine hauteur, parfois réglable, et peuvent supporter une certaine charge.
+C'est au groupe méthodes logistiques d'attribuer les équerres à un chantier en fonction de leurs caractéristiques.
+
+#### Analyse de l'existant
+La réservation des équerres se faisait jusqu'à maintenant via un fichier Excel, répertoriant toutes les équerres existantes et où il fallait colorer la ligne de l'équerre à réserver sur une certaine période.
+
