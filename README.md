@@ -29,7 +29,7 @@ Certains types d'équerres sont beaucoup plus utilisés que d'autres. Il peut ar
 - Gérer plusieurs utilisateurs<br>
 Le logiciel sera principalement utilisé par les employés du secteur méthodes logistiques. Ceux-ci soivent, à tout moment, pouvoir consulter les réservations des équerres.<br>
 - Gérer les droits des utilisateurs<br>
-Tous les utilisateurs n'ont pas les même droits.
-Ex :
+Tous les utilisateurs n'ont pas les même droits.<br>
+Exemple :
   - Les employés du secteur méthodes logistiques peuvent réserver, annuler une réservation, créer de nouvelles équerres... Ils ne voient que les types des équerres et non les repères servant à les identifier.
   - Les employés du secteur "pré montage" en revanche, n'ont pas le droit à la modification. Ils peuvent cependant voir les repères des équerres.
