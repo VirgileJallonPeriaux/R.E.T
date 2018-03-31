@@ -26,3 +26,10 @@ La réservation des équerres est une tâche chronophage. Le principal objectif 
 Le logiciel devra proposer à l'utilisateur une liste des équerres disponibles entre 2 dates déterminées. Celles-ci devront répondre aux caractéristiques exigées (hauteur + charge supportée).
 - Générer des statistiques
 Certains types d'équerres sont beaucoup plus utilisés que d'autres. Il peut arriver que plus aucune équerre correspondante ne soit disponible. Pour ne pas réitérer cette situation plus que dérangeante, le service coque métallique envisage l'achat de nouvelles équerres. Celles-ci ayant un coût élevé, la direction de STX demande des statistiques sur l'utilisation de ces équerres. Les statistiques établies permettront de démontrer l'intérêt réel d'un tel investissement.
+- Gérer plusieurs utilisateurs
+Le logiciel sera principalement utilisé par les employés du secteur méthodes logistiques. Ceux-ci soivent, à tout moment, pouvoir consulter les réservations des équerres.<br>
+- Gérer les droits des utilisateurs
+Tous les utilisateurs n'ont pas les même droits.
+Ex :
+- Les employés du secteur méthodes logistiques peuvent réserver, annuler une réservation, créer de nouvelles équerres... Ils ne voient que les types des équerres et non les repères servant à les identifier.
+- Les employés du secteur "pré montage" en revanche, n'ont pas le droit à la modification. Ils peuvent cependant voir les repères des équerres.
