@@ -31,5 +31,5 @@ Le logiciel sera principalement utilisé par les employés du secteur méthodes 
 - Gérer les droits des utilisateurs
 Tous les utilisateurs n'ont pas les même droits.
 Ex :
-- Les employés du secteur méthodes logistiques peuvent réserver, annuler une réservation, créer de nouvelles équerres... Ils ne voient que les types des équerres et non les repères servant à les identifier.
-- Les employés du secteur "pré montage" en revanche, n'ont pas le droit à la modification. Ils peuvent cependant voir les repères des équerres.
+  - Les employés du secteur méthodes logistiques peuvent réserver, annuler une réservation, créer de nouvelles équerres... Ils ne voient que les types des équerres et non les repères servant à les identifier.
+  - Les employés du secteur "pré montage" en revanche, n'ont pas le droit à la modification. Ils peuvent cependant voir les repères des équerres.
