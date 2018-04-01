@@ -1,0 +1,125 @@
+
+        public int getSemaine(DateTime dateTime)
+        {
+            return CultureInfo.InvariantCulture.Calendar.GetWeekOfYear(dateTime, CalendarWeekRule.FirstFullWeek, DayOfWeek.Monday);
+        }
+
+        private void dataGridView1_CurrentCellDirtyStateChanged(object sender, EventArgs e)
+        {
+            int x = dataGridView1.CurrentCell.ColumnIndex;
+            int y = dataGridView1.CurrentCell.RowIndex;
+            dataGridView1.CommitEdit(DataGridViewDataErrorContexts.Commit);
+            if (x == 4)
+            {
+                Color[] couleursDroits = new Color[5] { Color.Red, Color.Green, Color.Orange, Color.BlueViolet, Color.Blue };
+                int index = Convert.ToInt32(dataGridView1[x, y].Value.ToString());
+                dataGridView1.Rows[y].Cells[4].Style.ForeColor = couleursDroits[index];
+                // dataGridView1.ClearSelection();
+                dataGridView1.CurrentCell = dataGridView1[0, y];
+                // dataGridView1.BeginEdit(true);
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (_x == 4)
+            {
+                Color[] couleursDroits = new Color[5] { Color.Red, Color.Green, Color.Orange, Color.BlueViolet, Color.Blue };
+                int index = Convert.ToInt32(dataGridView1[_x, _y].Value.ToString());
+                dataGridView1.Rows[_y].Cells[4].Style.ForeColor = couleursDroits[index];
+            }
+
+            int x = dataGridView1.CurrentCell.ColumnIndex;
+            int y = dataGridView1.CurrentCell.RowIndex;
+            if(x == 4)
+            {
+                dataGridView1.Rows[y].Cells[4].Style.ForeColor = Color.Black;
+            }
+            // MessageBox.Show("x:" + x + " / " + y);
+
+            _x = x;
+            _y = y;
+        }
+
+        private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            int y = dataGridView1.CurrentCell.RowIndex;
+            int x = dataGridView1.CurrentCell.ColumnIndex;
+            _nbFois++;
+            //if (_complete)
+            //{
+            if (_nbFois > listeUtilisateurs.Count)
+            {
+                if (dataGridView1[x, y].ToString() != null && dataGridView1[x, y].ToString() != "")
+                {
+                    if (x == 0) { listeUtilisateurs[y].NomUtilisateur = dataGridView1.CurrentCell.Value.ToString().ToLower(); }
+                    if (x == 1) { listeUtilisateurs[y].Nom = (string)dataGridView1.CurrentCell.Value; }
+                    if (x == 2) { listeUtilisateurs[y].Prenom = (string)dataGridView1.CurrentCell.Value; }
+                    if (x == 3) { listeUtilisateurs[y].Mail = (string)dataGridView1.CurrentCell.Value; }
+                    if (x == 4) { listeUtilisateurs[y].Droits = Convert.ToInt32(dataGridView1.CurrentCell.Value); }
+                    // MessageBox.Show(listeUtilisateurs[y].NomUtilisateur);
+
+                    // PB si les lignes ont été sort
+                    // faire en sorte que le trigramme ne puisse pas être changé (on ne peut changer que le rang)
+                    BDDQuery.updateUtilisateur(listeUtilisateurs[y]);
+                }
+            }
+            //}
+            /*else
+            {
+                MessageBox.Show("nope");
+            }*/
+            
+        }
+
+        private void dataGridView1_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            //MessageBox.Show("chargement end");
+            //_complete = true;
+        }
+    
+
+
+                        listeUtilisateurs = BDDQuery.getUtilisateurs();
+
+                    dataGridView1.ColumnCount = 4;
+                    dataGridView1.Columns[0].Name = "Trigramme";
+                    dataGridView1.Columns[1].Name = "Nom";
+                    dataGridView1.Columns[2].Name = "Prenom";
+                    dataGridView1.Columns[3].Name = "Mail";
+                    //dataGridView1.Columns[5].Name = "Id";
+
+                    DataTable droits = new DataTable();
+                    droits.Columns.Add("Item");
+                    droits.Columns.Add("Value");
+                    droits.Rows.Add("Bloqué", "0");
+                    droits.Rows.Add("Visiteur", "1");
+                    droits.Rows.Add("Contributeur", "2");
+                    droits.Rows.Add("Manager", "3");
+                    droits.Rows.Add("Administrateur", "4");
+
+                    DataGridViewComboBoxColumn cbColonne = new DataGridViewComboBoxColumn();
+                    cbColonne.ReadOnly = false;
+                    cbColonne.DataSource = droits;
+                    dataGridView1.Columns.Add(cbColonne);
+                    cbColonne.FlatStyle = FlatStyle.Flat;
+
+                    cbColonne.Name = "Droits";
+                    cbColonne.HeaderText = "Droits";
+                    cbColonne.DisplayMember = "Item";
+                    cbColonne.ValueMember = "Value";
+                    cbColonne.DisplayIndex = 3;
+                    
+                    for (int k = 0; k < listeUtilisateurs.Count; k++)
+                    {
+                        dataGridView1.Rows.Add(listeUtilisateurs[k].NomUtilisateur.ToUpper(), listeUtilisateurs[k].Nom, listeUtilisateurs[k].Prenom, listeUtilisateurs[k].Mail);
+                        dataGridView1.Rows[k].Cells[4].Value = (cbColonne.Items[listeUtilisateurs[k].Droits] as DataRowView).Row[1].ToString();
+                        dataGridView1.Rows[k].Cells[4].Style.Font = new Font(dataGridView1.Font, FontStyle.Bold);
+
+                        // int x = dataGridView1.CurrentCell.ColumnIndex;
+                        // int y = dataGridView1.CurrentCell.RowIndex;
+                        // dataGridView1.CommitEdit(DataGridViewDataErrorContexts.Commit);
+                        Color[] couleursDroits = new Color[5] { Color.Red, Color.Green, Color.Orange, Color.BlueViolet, Color.Blue };
+                        int index = Convert.ToInt32(dataGridView1[4, k].Value.ToString());
+                        dataGridView1.Rows[k].Cells[4].Style.ForeColor = couleursDroits[index];
+                    }
