@@ -1,0 +1,48 @@
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\bin\Debug\RET.exe.config
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.csprojResolveAssemblyReference.cache
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.Properties.Resources.resources
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.csproj.GenerateResource.Cache
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\bin\Debug\RET.exe
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\bin\Debug\RET.pdb
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.exe
+c:\users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.pdb
+C:\Users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.Form_MenuPrincipal.resources
+C:\Users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.Form_ModificationParamsBDD.resources
+C:\Users\lfm\documents\visual studio 2013\Projects\RET\RET\obj\Debug\RET.Form_AffichageImage.resources
+C:\Users\lfm\Desktop\RET\RET\bin\Debug\RET.exe.config
+C:\Users\lfm\Desktop\RET\RET\obj\Debug\RET.exe
+C:\Users\lfm\Desktop\RET\RET\obj\Debug\RET.pdb
+C:\Users\lfm\Desktop\RET - Copie\RET\bin\Debug\RET.exe.config
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.exe
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.pdb
+C:\Users\lfm\Desktop\RET - Copie\RET\bin\Debug\RET.exe
+C:\Users\lfm\Desktop\RET - Copie\RET\bin\Debug\RET.pdb
+C:\Users\lfm\Desktop\RET - Copie\RET\bin\Debug\MySql.Data.dll
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.csprojResolveAssemblyReference.cache
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.Form_AffichageImage.resources
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.Form_MenuPrincipal.resources
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.Form_ModificationParamsBDD.resources
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.Properties.Resources.resources
+C:\Users\lfm\Desktop\RET - Copie\RET\obj\Debug\RET.csproj.GenerateResource.Cache
+C:\Users\lfm\Desktop\RET\RET\bin\Debug\RET.exe
+C:\Users\lfm\Desktop\RET\RET\bin\Debug\RET.pdb
+C:\Users\lfm\Desktop\RET\RET\bin\Debug\MySql.Data.dll
+C:\Users\lfm\Desktop\RET\RET\obj\Debug\RET.csprojResolveAssemblyReference.cache
+C:\Users\lfm\Desktop\RET\RET\obj\Debug\RET.Form_AffichageImage.resources
+C:\Users\lfm\Desktop\RET\RET\obj\Debug\RET.Form_MenuPrincipal.resources
+C:\Users\lfm\Desktop\RET\RET\obj\Debug\RET.Properties.Resources.resources
+C:\Users\lfm\Desktop\RET\RET\obj\Debug\RET.csproj.GenerateResource.Cache
+C:\Users\lfm\Desktop\RET\RET\bin\Debug\itextsharp.dll
+C:\Users\lfm\Desktop\RET\RET\bin\Debug\itextsharp.xml
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\bin\Debug\RET.exe.config
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\obj\Debug\RET.exe
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\obj\Debug\RET.pdb
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\bin\Debug\RET.exe
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\bin\Debug\RET.pdb
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\bin\Debug\MySql.Data.dll
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\bin\Debug\itextsharp.xml
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\obj\Debug\RET.csprojResolveAssemblyReference.cache
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\obj\Debug\RET.Form_AffichageImage.resources
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\obj\Debug\RET.Form_MenuPrincipal.resources
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\obj\Debug\RET.Properties.Resources.resources
+C:\Users\vivij\Desktop\Dossier_RET\Logiciel\RET\RET\obj\Debug\RET.csproj.GenerateResource.Cache
