@@ -7,9 +7,9 @@ J'ai, pendant mon stage, intégré le bureau d'étude du service coque métalliq
 
 
 ### Construction d'un navire
-La construction de navires suit un processus bien établi qui ne varie que dans de rares cas (navires militaires par exemple). Si la construction d'un navire demande beaucoup de travail et de précision, que ce soit dans les bureaux ou sur les chantiers, on peut toutefois schématiser celle-ci de manière assez simple.
+La construction de navires suit un processus bien établi qui ne varie que dans de rares cas (navires militaires par exemple). Si la construction d'un navire demande beaucoup de travail et de précision, que ce soit dans les bureaux ou sur les chantiers, on peut toutefois décrire celui-ci de manière assez simple.
 
-Un **panneau** peut être schématisé par un morceau de tôle souvent long d'une vingtaine de mètres. Il est modélisé en 3D puis envoyé à l'usinage. Celui-ci sera volontairement construit à l'envers de manière à simplifier la pose des câbles électriques et autres tuyaux. Lorsque l'installation de ceux-ci est finie, le panneau est dit "armé" et il faut alors le retourner dans le bon sens.
+Un **panneau** peut être schématisé par un morceau de tôle souvent long d'une vingtaine de mètres (et pesant de 10 à 300 Tonnes). Il est modélisé en 3D puis envoyé à l'usinage. Celui-ci sera volontairement construit à l'envers de manière à simplifier la pose des câbles électriques et autres tuyaux. Lorsque l'installation de ceux-ci est finie, le panneau est dit "armé" et il faut alors le retourner dans le bon sens.
 Les panneaux dans le bon sens sont alors empilés les uns sur les autres, ils forment alors ce qu'on appelle un **bloc**. Ces blocs, à leur tour, vont être empilés les uns sur les autres. C'est cet ensemble de blocs qui constitue le navire.
 
 ### Utilisation des équerres
