@@ -59,8 +59,16 @@ Seulement, pour instancier et valoriser toutes les données membres d'une équer
   - Enfin, le type d'équerre valorisera une donnée membre de l'équerre<br>
   
 Instancier une équerre, c'est donc garder en mémoire beaucoup de données. Il n'y a rarement que une seule équerre réservée sur un bloc. On peut supposer répéter cette opération jusqu'à 20x par bloc...
+Il est donc inconcevable de charger en mémoire, au démarrage de l'application par exemple, toutes les réservations associées à chaque bloc. Actuellement 4453...
   
+### Dans la fenêtre listant les équerres réervées :
+Pour optimiser l'utilisation de la mémoire dans cette situation, on ne va pas créer de variable de type Equerre.
+De plus, seules quelques informations que peut nous fournir un objet de type Equerre nous sont utiles dans cette fenêtre. 
+On préférera alors recueillir les informations nécessaire dans les liste de string puis les afficher.
 
+### Dans la fenêtre representant la fiche technique d'une équerre :
+Cette situation est différente de la précédente. En effet, la fiche technique d'une équerre doit être complète. Nous avons besoin de toutes les données que peut nous fournir un objet de type Equerre.
+Nous instancierons alors l'équerre en mémoire.
 
 
 Le SGBDR MySQL sera utilisé pour la base de données. STX possède Access mais le service informatique est assez réticent à l'idée de donner des accès à quelqu'un qui n'appartient pas à leur service. De même, STX possède des serveurs. Pour pouvoir y stocker une base de données, il faut faire une demande écrite. Les accès ne sont donnés que tous les 3 mois. Lorsque mon stage se termine, l'équipe méthodes logistiques n'a toujours pas accès au serveur SQL.
