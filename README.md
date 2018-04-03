@@ -71,5 +71,5 @@ Cette situation est différente de la précédente. En effet, la fiche technique
 Nous instancierons alors l'équerre en mémoire.
 *Nb* : Les seules fois où il y a une instanciation d'équerre en mémoire, c'est lorsqu'il n'y a qu'une seule équerre à charger.
 
-
+### Serveur SQL
 Le SGBDR MySQL sera utilisé pour la base de données. STX possède Access mais le service informatique est assez réticent à l'idée de donner des accès à quelqu'un qui n'appartient pas à leur service. De même, STX possède des serveurs. Pour pouvoir y stocker une base de données, il faut faire une demande écrite. Les accès ne sont donnés que tous les 3 mois. Lorsque mon stage se termine, l'équipe méthodes logistiques n'a toujours pas accès au serveur SQL.
