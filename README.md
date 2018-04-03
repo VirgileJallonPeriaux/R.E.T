@@ -43,5 +43,14 @@ Le logiciel sera développé en C# pour plusieurs raisons :
 
 Du schéma de base de données découle ce diagramme de classes
 ![diagClasse](https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/diagClasseRet.PNG)
+Ou du moins c'est à ça qu'il était censé ressembler si il n'y avait pas quelques contraintes à prendre en compte...
+
+## Optimisation de la mémoire
+Dans le contexte qu'est celui de la gestion des équerres, il y a beaucoup de données à traiter.
+Pour améliorer la vitesse des traitements, il a fallu, en quelques sortes, ruser.
+Ainsi la classe *Reservation* (en orange dans le diagramme) n'existe pas.
+Il semble pourtant nécessaire d'associer à un bloc; de zéro à plusieurs équerres réservées pour celui-ci.
+
+
 
 Le SGBDR MySQL sera utilisé pour la base de données. STX possède Access mais le service informatique est assez réticent à l'idée de donner des accès à quelqu'un qui n'appartient pas à leur service. De même, STX possède des serveurs. Pour pouvoir y stocker une base de données, il faut faire une demande écrite. Les accès ne sont donnés que tous les 3 mois. Lorsque mon stage se termine, l'équipe méthodes logistiques n'a toujours pas accès au serveur SQL.
