@@ -13,7 +13,7 @@ Un **panneau** peut être schématisé par un morceau de tôle souvent long d'un
 Les panneaux dans le bon sens sont alors empilés les uns sur les autres, ils forment alors ce qu'on appelle un **bloc**. Ces blocs, à leur tour, vont être empilés les uns sur les autres. C'est cet ensemble de blocs qui constitue le navire.
 
 ### Utilisation des équerres
-Lorsque des blocs ou des équerres sont empilés sur un chantier, ceux-ci doivent être maintenus par des équerres. Celles-ci ont une certaine hauteur, parfois réglable, et peuvent supporter une certaine charge.
+Lorsque des blocs ou des panneaux sont empilés sur un chantier, ceux-ci doivent être maintenus par des équerres. Celles-ci ont une certaine hauteur, parfois réglable, et peuvent supporter une certaine charge.
 C'est au groupe méthodes logistiques d'attribuer les équerres à un chantier en fonction de leurs caractéristiques.
 
 #### Analyse de l'existant
