@@ -22,7 +22,7 @@ L'objectif durant ce stage sera de développer un logiciel permettant à l'équi
 De nombreuses documentations concernant les propriétés des équerres m'ont été remises. Elles m'ont permis de créer la base de donnée nécessaire pour utiliser le logiciel.
 ![Schema Base De Donnees](https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/BaseDeDonnees/schemaWorkbenchBDD.png)
 
-## Cahier des charges du logiciel
+## Cahier des charges du logiciel : quelques points clefs
 La réservation des équerres est une tâche chronophage. Le principal objectif du logiciel est de gagner du temps; ou plutôt de ne pas en perdre car la réservation des équerres via le fichier Excel est laborieuse et source d'erreurs.
 - Simplifier la recherche des équerres disponibles<br>
 Le logiciel devra proposer à l'utilisateur une liste des équerres disponibles entre 2 dates déterminées. Celles-ci devront répondre aux caractéristiques exigées (hauteur + charge supportée).
@@ -39,6 +39,9 @@ Exemple :
 ## Le logiciel
 Le logiciel sera développé en C# pour plusieurs raisons : 
 - Le logiciel est assez complet, il prendra donc du temps à réaliser. Le programmer dans un langage que je ne connais que peu ne me permettrait pas de réaliser le cahier des charges convenu.
-- Le logiciel ne sera certainement pas fini avant la fin de mon stage. Deux solutions s'offrent alors : soit un autre stagiaire prends le relais soit c'est un membre de l'équipe méthodes logistiques, Matthieu Michel (dit "MattMich"), qui s'en chargera. Il est le plus susceptible d'intervenir sur le code si une erreur se produit. Ayant quelques notions de Visual Basic (langage assez proche du C# dans sa syntaxe), il sera à même de modifier le code du logiciel.
+- Le logiciel ne sera certainement pas fini avant la fin de mon stage. Deux solutions s'offrent alors : soit un autre stagiaire prends le relais soit c'est un membre de l'équipe méthodes logistiques, Matthieu Michel (dit "MattMich"), qui s'en chargera. Il est le plus susceptible d'intervenir sur le code si une erreur se produit. Ayant quelques notions de Visual Basic (langage assez proche du C# dans sa syntaxe), il sera à même de modifier le code du logiciel d'autant plus que celui-ci a déjà eu l'occasion d'utiliser l'EDI Visual Studio.
+
+Du schéma de base de données découle ce diagramme de classes
+![diagClasse](https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/diagClasseRet.png)
 
 Le SGBDR MySQL sera utilisé pour la base de données. STX possède Access mais le service informatique est assez réticent à l'idée de donner des accès à quelqu'un qui n'appartient pas à leur service. De même, STX possède des serveurs. Pour pouvoir y stocker une base de données, il faut faire une demande écrite. Les accès ne sont donnés que tous les 3 mois. Lorsque mon stage se termine, l'équipe méthodes logistiques n'a toujours pas accès au serveur SQL.
