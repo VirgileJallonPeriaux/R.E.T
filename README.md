@@ -42,6 +42,6 @@ Le logiciel sera développé en C# pour plusieurs raisons :
 - Le logiciel ne sera certainement pas fini avant la fin de mon stage. Deux solutions s'offrent alors : soit un autre stagiaire prends le relais soit c'est un membre de l'équipe méthodes logistiques, Matthieu Michel (dit "MattMich"), qui s'en chargera. Il est le plus susceptible d'intervenir sur le code si une erreur se produit. Ayant quelques notions de Visual Basic (langage assez proche du C# dans sa syntaxe), il sera à même de modifier le code du logiciel d'autant plus que celui-ci a déjà eu l'occasion d'utiliser l'EDI Visual Studio.
 
 Du schéma de base de données découle ce diagramme de classes
-![diagClasse](https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/diagClasseRet.png)
+![diagClasse](https://github.com/VirgileJallonPeriaux/R.E.T/tree/master/Documentation/Logiciel/diagClasseRet.png)
 
 Le SGBDR MySQL sera utilisé pour la base de données. STX possède Access mais le service informatique est assez réticent à l'idée de donner des accès à quelqu'un qui n'appartient pas à leur service. De même, STX possède des serveurs. Pour pouvoir y stocker une base de données, il faut faire une demande écrite. Les accès ne sont donnés que tous les 3 mois. Lorsque mon stage se termine, l'équipe méthodes logistiques n'a toujours pas accès au serveur SQL.
