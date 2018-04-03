@@ -49,7 +49,17 @@ Ou du moins c'est à ça qu'il était censé ressembler si il n'y avait pas quel
 Dans le contexte qu'est celui de la gestion des équerres, il y a beaucoup de données à traiter.
 Pour améliorer la vitesse des traitements, il a fallu, en quelques sortes, ruser.
 Ainsi la classe *Reservation* (en orange dans le diagramme) n'existe pas.
-Il semble pourtant nécessaire d'associer à un bloc; de zéro à plusieurs équerres réservées pour celui-ci.
+Il semble pourtant nécessaire d'associer à un bloc zéro à plusieurs équerres réservées pour celui-ci.
+Seulement, pour instancier et valoriser toutes les données membres d'une équerre, il faut :
+  Instancier une équerre
+  Instancier un type d'équerre
+  Instancier une liste de propriétés
+  Pour chaque propriété, il faut instancier un moyen de transport qui valorisera une donnée membre de la propriété
+  Chaque propriété valorisera alors la liste des propriétés d'un type d'équerre
+  Enfin, le type d'équerre valorisera une donnée membre de l'équerre
+  
+  Instancier une équerre, c'est donc garder en mémoire beaucoup de données. Il n'y a rarement que une seule équerre réservée sur un bloc. On peut supposer répéter cette opération jusqu'à 20x par bloc...
+  
 
 
 
