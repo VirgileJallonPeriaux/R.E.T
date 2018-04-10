@@ -75,3 +75,6 @@ Nous instancierons alors l'équerre en mémoire.
 Le SGBDR MySQL sera utilisé pour la base de données. STX possède Access mais le service informatique est assez réticent à l'idée de donner des accès à quelqu'un qui n'appartient pas à leur service. De même, STX possède des serveurs. Pour pouvoir y stocker une base de données, il faut faire une demande écrite. Les accès ne sont donnés que tous les 3 mois. Lorsque mon stage se termine, l'équipe méthodes logistiques n'a toujours pas accès au serveur SQL.
 
 <img src="https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/ezgif.com-video-to-gif.gif" width="1200" height="400" />
+
+
+![Presentation Interface Graphique](https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/presentationInterfaceGraphique.gif)
