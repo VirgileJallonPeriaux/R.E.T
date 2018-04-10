@@ -77,4 +77,4 @@ Le SGBDR MySQL sera utilisé pour la base de données. STX possède Access mais 
 <img src="https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/ezgif.com-video-to-gif.gif" width="1200" height="400" />
 
 
-![Presentation Interface Graphique](https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/presentationInterfaceGraphique.gif)
+![Presentation Interface Graphique](https://github.com/VirgileJallonPeriaux/R.E.T/blob/master/Documentation/Logiciel/presentationInterfaceGraphique.mp4)
